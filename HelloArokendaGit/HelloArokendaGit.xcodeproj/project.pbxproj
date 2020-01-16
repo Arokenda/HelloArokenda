@@ -12,6 +12,8 @@
 		C39F88DD23D047B700BCCA62 /* HelloArokenda.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F88DB23D047B600BCCA62 /* HelloArokenda.m */; };
 		C39F88DE23D0483100BCCA62 /* HelloArokendaGit.h in Resources */ = {isa = PBXBuildFile; fileRef = C39F88D223D0471B00BCCA62 /* HelloArokendaGit.h */; };
 		C39F88DF23D0483100BCCA62 /* HelloArokenda.h in Resources */ = {isa = PBXBuildFile; fileRef = C39F88DA23D047B600BCCA62 /* HelloArokenda.h */; };
+		C39F88E023D0548900BCCA62 /* HelloArokenda.m in Resources */ = {isa = PBXBuildFile; fileRef = C39F88DB23D047B600BCCA62 /* HelloArokenda.m */; };
+		C39F88E123D0548C00BCCA62 /* HelloArokendaGit.framework in Resources */ = {isa = PBXBuildFile; fileRef = C39F88CF23D0471B00BCCA62 /* HelloArokendaGit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +132,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39F88E123D0548C00BCCA62 /* HelloArokendaGit.framework in Resources */,
+				C39F88E023D0548900BCCA62 /* HelloArokenda.m in Resources */,
 				C39F88DE23D0483100BCCA62 /* HelloArokendaGit.h in Resources */,
 				C39F88DF23D0483100BCCA62 /* HelloArokenda.h in Resources */,
 			);
