@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HelloArokendaGit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of HelloArokendaGit."
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Arokenda/HelloArokenda", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/Arokenda/HelloArokenda", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,14 +88,14 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HelloArokendaGit/HelloArokendaGit/*.h"
+  s.source_files  = "HelloArokendaGit/HelloArokendaGit/*.{h,m}"
   #s.exclude_files = "HelloArokendaGit/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
+  #s
   #  A list of resources included with the Pod. These are copied into the
   #  target bundle with a build phase script. Anything else will be cleaned.
   #  You can preserve files from being cleaned, please don't preserve
